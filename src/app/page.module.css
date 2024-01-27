@@ -1,14 +1,11 @@
-.searchbar
-{
+.body{
 
-height: 55px;
-width: 500px;
-border-radius: 30px;
-text-align: center;
-position: relative;
-font-size: larger;
+
+margin: 0;
 
 }
+
+
 
 
 .maindiv 
@@ -20,33 +17,7 @@ place-items: center;
 
 }
 
-.body {
 
-
-height: 100vh;
-
-}
-
-.searchbutton
-{
-
-
-height: 3.5em;
-width: 3.5em;
-border-radius: 55px;
-/* position: absolute;
-left: 960px;
-bottom:683px; */
-border-style: none;
-background: linear-gradient(to right, #ff7e5f, #feb47b);
-transition: transform 0.3s ease;
-}
-
-.searchbutton:hover
-{
-transform: scale(0.9);
-background: linear-gradient(to right, #8acbff, #5d9cec);
-}
 
 
 .h{
@@ -54,7 +25,244 @@ background: linear-gradient(to right, #8acbff, #5d9cec);
 
 height: 100vh;
 width: 100%;
-background-color: #feb47b;
+background: rgb(233,190,238);
+background: linear-gradient(90deg, rgba(233,190,238,1) 0%, rgba(150,144,233,1) 67%, rgba(76,54,200,1) 100%);
+margin-bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.h_circle
+{
+
+
+height: 500px;
+width: 500px;
+border-radius: 50%;
+background-color: beige;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10em ;
+font-weight: bolder;
+transition: 1s  ease;
+flex-direction: column;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0,  0.2
+0);
+
+}
+
+.h_circle:hover{
+
+transform: scale(1.1);
+
+}
+
+.cloud{
+
+position: absolute;
+top: 40px;
+left: 20%;
+z-index: 1;
+}
+
+.cloud2
+{
+    position: absolute;
+    top: 40px;
+    right: 30%;
+    z-index: 1;
+
+}s
+.sun{
+
+z-index: 1;
+position: absolute;
+
+
+}
+
+.s_b{
+    background: linear-gradient(90deg, rgba(233,190,238,1) 0%, rgba(150,144,233,1) 67%, rgba(76,54,200,1) 100%);
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+}
+
+
+.searchbar
+{
+
+height: 55px;
+width: 500px;
+border-radius: 30px;
+text-align: center;
+font-size: larger;
+border-style: none;
+margin-top: 100px;
+}
+
+
+.searchbutton
+{
+
+
+height: 4em;
+width: 4em;
+border-radius: 55px;
+border-style: none;
+transition: transform 0.5s ease;
+margin-left: 20px
+}
+
+.searchbutton:hover
+{
+transform: scale(0.9);
+}
+
+
+.d1 {
+    position: absolute;
+    top: 35px;
+    right: 14px;
+  }
+  
+  
+  .d5 {
+    position: absolute;
+   left: 20px;
+  }
+  
+  .d6 {
+    position: absolute;
+  bottom: 30px;
+  right: 12px;
+  }
+
+  
+
+
+
+
+
+
+  .wmain{
+
+
+background-color: rgb(255, 255, 255);
+height: max-content ;
+width: 900px;
+margin-top: 100px;
+display: flex;
+justify-content: center ; 
+border-radius: 30px;
+flex-direction: column;
 margin-bottom: 100px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .firstbox
+  {
+
+height:max-content ;
+width:800px;
+margin-top: 50px;
+background-color: rgb(205, 234, 234);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+margin-left: 50px;
+  }
+
+  .citynamebox{
+
+height: 50px;
+width: 130px;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 10px;
+
+  }
+
+  .collection{
+
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+
+  }
+
+  .citynamebox_1{
+
+    height: max-content;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 30px 10px 5px;
+    border-radius: 25px;
+    text-align: center;
+      }
+
+      .citynamebox_2{
+
+        height: max-content;
+        width: 180px;
+        background-color: rgb(255, 255, 255);
+    margin: 10px 30px 10px 5px;
+    text-align: center;
+    border-radius: 25px;
+        
+          }
+          .citynamebox_3{
+
+            height: max-content;
+            width: 180px;
+            background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 5px;
+    border-radius: 25px;
+    text-align: center;
+            
+
+          }
+
+
+
+        
+.secondbox {
+
+  height:max-content ;
+  width:800px;
+  margin-top: 50px;
+  background-color: rgb(205, 234, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+ margin-bottom: 20px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.values
+{
+
+background-color: rgb(216, 235, 235);
+border-radius: 2px;
+height: 30px;
 
 }
